@@ -50,6 +50,7 @@ def launch_model(name,model, X_train, y_train, X_test, y_test):
     print ('MSE test', metrics.mean_absolute_error(y_test, y_pred))
     r_1 = model.score(X_train, y_train)
     r_2 = model.score(X_test, y_test)
+
     print ('R^2 train', r_1)
     print ('R^2 test', r_2)
     #print('Tiempo de ejecución: {0:.2f} segundos.'.format(time.time() - start))
