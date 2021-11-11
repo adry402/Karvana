@@ -1,6 +1,7 @@
 import numpy as np
-import missingno as msno
 import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
 
 
 from sklearn.model_selection import train_test_split
@@ -103,21 +104,7 @@ def plot(results):
     # Display the plot in interactive UI
     plt.show()
 
-    # To save the plot to an image file, use savefig()
-    #plt.savefig('plot.png')
-
-    # Open the image file with the default image viewer
-    #import subprocess
-    #subprocess.Popen('plot.png', shell=True)
-
-    # To save the plot to an image in memory, use BytesIO and savefig()
-    # This can then be written to any stream-like object, such as a
-    # file or HTTP response.
-    #from io import BytesIO
-    #img_stream = BytesIO()
-    #plt.savefig(img_stream, fmt='png')
-    #img_bytes = img_stream.getvalue()
-    #print('Image is {} bytes - {!r}'.format(len(img_bytes), img_bytes[:8] + b'...'))
+   
 
     # Closing the figure allows matplotlib to release the memory used.
     plt.close()
