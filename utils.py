@@ -1,17 +1,9 @@
 import numpy as np
 import missingno as msno
-import pandas as pd
-from pandas import Series, DataFrame
-from pandas.api.types import is_string_dtype, is_numeric_dtype  
 import matplotlib.pyplot as plt
-from matplotlib import rcParams
-from collections import Counter
-import seaborn as sns
 
-from sklearn.ensemble import RandomForestRegressor
+
 from sklearn.model_selection import train_test_split
-from datetime import datetime
-import datetime as dt
 from sklearn import metrics
 from sklearn.model_selection import cross_val_score
 
