@@ -9,3 +9,5 @@ Una correcta predicción del precio del automóvil se traducirá en una mejor ex
 ## Solucion
 
 Se entrenan dos modelos usando algortimos para regresiones: Random Forest y Support Vector Regression. Se describen los errores en cada uno de ellos y cual seria el modelo recomendado a implementar.
+
+La solucion esta descrita en karvana_regression.ipynb
